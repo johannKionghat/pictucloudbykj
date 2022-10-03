@@ -1,0 +1,437 @@
+.left_bar_contact{
+    width: 25%;
+    float: left;
+    height: 550px;
+    background-color: #d3d1d1ec;
+    overflow-y: scroll;
+    font-family: 'Gill Sans', 'Gil28l Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}.right_bar_contact{
+    margin-top: -723px;
+    width: 75%;
+    float: right;
+    height:700px;
+    background-color: #ececec;
+    text-align: center;
+    overflow-y: auto;
+
+}
+
+
+#myprofil{
+    width:400px;
+    height: 100px;
+    border:3px solid rgb(178, 178, 173);
+
+}#disconnect{
+    padding: 5px 10px;
+    margin: 10px 30px;
+    width: 150px;
+    display: inline-block;
+
+}
+#off{
+    background-color: rgb(5, 5, 5);
+    height: 100px;
+    text-align: center;
+    margin-top: -25px;
+    
+}
+#end{
+    background-color: #ececec;
+    height: 450px;
+    text-align: center;
+}section{
+    background-color: #ecececec;
+    height: 700px;
+    width: 100%;
+    border-left: none;
+    border-right: none;
+}.error{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 300px;
+    background-color: #e3acac;
+    display: inline-block;
+    border: 1px solid white;
+    margin: 30px 0px 0px 0px;
+    height: 100px;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 10px;
+}
+.succes{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 300px;
+    background-color: #c4e3ac;
+    display: inline-block;
+    border: 1px solid white;
+    margin: 30px 0px 0px 0px;
+    height: 100px;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 10px;
+}.message{
+
+    text-align: center;
+    margin: auto;
+    
+}
+
+
+footer{
+    height:200px;
+    background-color: rgb(23, 60, 62);
+    width: 100%;;
+    text-align: center;
+    color:white ;
+    padding-top: 30px;
+    border-top: 2px solid white;
+    padding-bottom: 25px;
+    margin: 0;
+}
+
+
+
+#form{
+    text-align: center;
+    padding: 85px 0px;
+}
+form{
+    display: inline-block;
+    border: 1px solid rgb(255, 255, 255);
+    width: 70%;
+    box-shadow: 0px 2px 0px rgb(95, 94, 94);
+    background-color: rgba(0, 0, 0, 0.495);
+    background-size:cover ;
+}
+fieldset{
+    font-weight:bold;
+    padding: 10px;
+    text-align: center;
+    color: black;
+    background-color: white;
+    border-bottom: 1px solid black;
+}
+input{
+    padding: 5px 10px;
+    margin: 20px;
+    border: 1px solid black;
+    width: 80%;
+}
+input:hover{
+    border: 1px solid black;
+    box-shadow: 0px 2px 0px rgb(23, 60, 62);    padding: 5px 10px;
+    margin: 20px;
+}
+table{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: left;
+    margin: 20px;
+    display: inline-block;
+    width: 100%;
+
+}
+td{
+   
+    border: 1px solid black;
+    padding: 0 10px;
+    border-left: none;
+    border-collapse: collapse;
+    width: 40%;
+}
+#tablechangeprofil{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: left;
+    margin: 20px;
+    display: inline-block;
+    box-shadow: 0px 2px 0px rgb(23, 60, 62);
+    width: 70%;
+}
+#tdchangeprofil{
+   
+    border: 1px solid black;
+    padding: 0 10px;
+    border-left: none;
+    border-collapse: collapse;
+    background-color: #3e1717a4;
+    width: 40%;
+}
+
+#adeconnection{
+    color: black;
+    text-decoration: none;
+}
+#profil{
+    background-color: rgba(0, 0, 0, 0.613); ;
+}
+#imgprofil{
+    width: 50px;
+    height: 50px;
+    float: left;
+    border-radius: 50%;
+    background-color: #ecececec;
+    margin: 0 10px 0 -25px;
+
+}
+#divprofilleft{
+    display: inline-block;
+    padding: 0 25px;
+    height: 50px;
+    font-size: 18px;
+    line-height: 50px;
+    border-radius: 25px;
+    background-color: #f1f1f1;
+    margin-top:10px;
+    width:80%;
+    margin-left: 20px;
+    color:rgb(35, 152, 158);
+    width:19.2%;
+    margin-bottom: 10px;
+    border:solid 4px rgb(35, 152, 158);
+
+}
+#divcontactleft{
+    display: inline-block;
+    padding: 0 25px;
+    height: 50px;
+    font-size: 18px;
+    line-height: 50px;
+    border-radius: 25px;
+    background-color: #f1f1f1;
+    margin-top:10px;
+    margin-left: 20px;
+    width:80%;
+    color:rgb(35, 152, 158);
+    border:solid 2px #686767;
+    margin-bottom: 10px;
+
+
+}
+#divcontactleft:hover{
+    background-color: #686767;
+    color: white;
+
+}
+#imgcontactleft{
+   
+    float: left;
+    margin: 0 10px 0 -25px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.label{
+    font-weight: bold;
+    border-right: none;
+    width:  20%;
+}
+#button{
+    text-align: center;
+    padding-bottom: 20px;
+}
+button{
+    padding: 5px 10px;
+    background-color: none;
+    font-weight: bold;
+    background-color: white;
+    color: black;
+    width: 300px;
+    border: 1px solid black;
+    margin-bottom: 50px;
+}
+button:hover{
+    padding: 5px 10px;
+    background-color: none;
+    font-weight: bold;
+    background-color: rgb(196, 196, 196);
+    color: rgb(255, 255, 255);
+    width: 100px;
+    border: 1px solid rgb(255, 255, 255);
+    cursor: pointer;
+    width: 300px;
+    margin-bottom: 50px;
+}
+#buttonsup{
+    margin-top: 200px;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+
+
+
+header{
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(23, 60, 62);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 0px;
+    box-shadow: 0px 2px 0px rgb(255, 254, 254);
+    border-bottom: 2px solid white;
+}
+#header2{
+    height: 30px;
+    text-align: center;
+    background-color: black;
+    margin-bottom:0px;
+    padding-bottom: 150px;
+    margin-left: 0px;
+}
+#icon{
+    width: 100px;
+    height: 70px;
+    float: left;
+    background-image: url("../images/pictu2.png");
+    background-size:cover;
+    
+}.nav{
+    color: white;
+}
+#nav{
+    text-align: center;
+    width: 100%;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.815);
+    border: 1px solid white;
+    color: white;
+}
+.menu{
+    width: 100%;
+    height:20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+}.list{
+    display: inline-block;
+    width: 100px;
+}.menu2{
+    width: 100%;
+    height:100px;
+    text-align: center;
+    margin-top: 30px;
+}.list2{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}.logo{
+    width: 100px;
+    border-bottom: 5px solid rgba(255, 255, 255, 0);
+}
+.logo:hover{
+    width: 100px;
+    border-bottom: 5px solid white;
+    box-shadow: 1px 3px 50px 0px rgb(23, 60, 62);
+}
+
+#icon2{
+    width: 100px;
+    height: 65px;
+    float: right;
+    background-image: url("../images/kjlogo.png");
+    background-size:cover;
+}body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(232, 230, 230);
+    width: 100%;
+
+}
+.contener{
+    height: 100%
+
+}
+#topbar{
+    background-color: rgba(9, 7, 23, 0.565);
+    color: white;
+    text-align:center;
+    height: 50px;
+    width: 100%;
+    border: 2px solid black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+
+#contactimageaffichage{
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    background-color: rgb(23, 60, 62);
+    overflow-y: auto;
+}
+#imgcontact{
+    width: 600px;
+    height: 500px;
+    display: inline-block;
+}
+#nomcontact{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(235, 235, 235, 0.236);
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    border-top: 25px solid black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}h1{
+    margin-top: 15px;
+}#tableaffichage{
+    width: 90%;
+    display: inline-block;
+    text-align: center;
+    font-size: 25px;
+    border-collapse: collapse;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-top: 10px solid rgb(46, 44, 44);
+    border-bottom: 10px solid rgb(46, 44, 44);
+
+ 
+
+}#traffichage{
+    margin: 10px;
+    display: inline-block;
+    text-align: center;
+    width: 95%;
+    border-collapse: collapse;
+
+
+
+}#tdaffichage{
+    margin: 0 5px;
+    padding: 5px 10px;
+    width: 45%;
+    display: inline-block;
+    text-align: left;
+    border-collapse: collapse;
+    border: 1px solid rgb(23, 60, 62);
+    background-color: #bab5b5;
+}
+#newcontact{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.882);
+    height: 50px;
+    width: 24.05%;
+    font-size: 16px;
+    padding: 8px 0;
+}
+#pbuttonnew{
+    float: left;
+    width: 35%;
+
+}
+#buttonnew{
+    float: right;
+    margin-right:35px;
+    margin-top: 10px;
+    width: 50%;
+}

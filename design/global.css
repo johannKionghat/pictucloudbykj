@@ -1,0 +1,415 @@
+/*******************************************************************************************************************************************
+*********************************************     HEADER        ****************************************************************************
+********************************************************************************************************************************************/
+
+
+header{
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(23, 60, 62);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 0px;
+    box-shadow: 0px 2px 0px rgb(255, 254, 254);
+    border-bottom: 2px solid white;
+}
+#header2{
+    height: 30px;
+    text-align: center;
+    background-color: black;
+    margin-bottom:0px;
+    padding-bottom: 150px;
+}
+#icon{
+    width: 100px;
+    height: 70px;
+    float: left;
+    background-image: url("../images/pictu2.png");
+    background-size:cover;
+    
+}.nav{
+    color: white;
+}
+#nav{
+    text-align: center;
+    width: 100%;
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.815);
+    border: 1px solid white;
+    color: white;
+
+}
+.menu{
+    width: 100%;
+    height:20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+
+}.list{
+    display: inline-block;
+    width: 100px;
+
+}.menu2{
+    width: 100%;
+    height:100px;
+    text-align: center;
+    margin-top: 30px;
+}.list2{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+
+}.logo{
+    width: 100px;
+    border-bottom: 5px solid rgba(255, 255, 255, 0);
+}
+.logo:hover{
+    width: 100px;
+    border-bottom: 5px solid white;
+    box-shadow: 1px 3px 50px 0px rgb(23, 60, 62);
+}
+
+#icon2{
+    width: 100px;
+    height: 65px;
+    float: right;
+    background-image: url("../images/kjlogo.png");
+    background-size:cover;
+    
+}
+/*******************************************************************************************************************************************
+*********************************************     BODY        ****************************************************************************
+********************************************************************************************************************************************/
+body{
+    margin: 0px;
+    padding: 0px;
+
+}
+.contener{
+    height: 100%;
+}
+/*******************************************************************************************************************************************
+*********************************************     FORMULAIRE        ****************************************************************************
+********************************************************************************************************************************************/
+#form{
+    text-align: center;
+    padding: 85px 0px;
+}
+form{
+    display: inline-block;
+    border: 1px solid rgb(255, 255, 255);
+    width: 800px;
+    box-shadow: 0px 2px 0px rgb(95, 94, 94);
+    background-color: rgb(23, 60, 62);
+    background-size:cover ;
+}
+fieldset{
+    font-weight:bold;
+    padding: 10px;
+    text-align: center;
+    color: black;
+    background-color: white;
+    border-bottom: 1px solid black;
+}
+input{
+    padding: 5px 10px;
+    margin: 20px;
+    border: 1px solid black;
+    width: 80%;
+}
+input:hover{
+    border: 1px solid black;
+    box-shadow: 0px 2px 0px rgb(23, 60, 62);
+    padding: 5px 10px;
+    margin: 20px;
+}
+table{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: left;
+    background-color: white;
+    margin: 20px;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+td{
+   
+    border: 1px solid black;
+    padding: 0 10px;
+    border-left: none;
+    border-collapse: collapse;
+    background-color: rgb(23, 60, 62);
+    width: 40%;
+}
+.label{
+    font-weight: bold;
+    border-right: none;
+    width:  20%;
+}
+#button{
+    text-align: center;
+    padding-bottom: 20px;
+    padding: 5px 10px;
+    background-color: none;
+    font-weight: bold;
+    background-color: white;
+    color: black;
+    width: 200px;
+    border: 1px solid black;
+    display: inline-block;
+    margin-left: 30px;
+}
+#button:hover{
+    padding: 5px 10px;
+    background-color: none;
+    font-weight: bold;
+    background-color: rgb(196, 196, 196);
+    color: rgb(255, 255, 255);
+    width: 100px;
+    border: 1px solid rgb(255, 255, 255);
+    cursor: pointer;
+    width: 200px;
+    display: inline-block;
+    margin-left: 30px;
+}
+button{
+    padding: 5px 10px;
+    background-color: none;
+    font-weight: bold;
+    background-color: white;
+    color: black;
+    width: 300px;
+    border: 1px solid black;
+    margin-bottom: 15px;
+}
+#pconnection{
+    border:1px solid black;
+    padding:5px 10px;
+    color: black;
+}
+#adeconnection{
+    color: black;
+    text-decoration: none;
+}
+button:hover{
+    padding: 5px 10px;
+    background-color: none;
+    font-weight: bold;
+    background-color: rgb(196, 196, 196);
+    color: rgb(255, 255, 255);
+    width: 100px;
+    border: 1px solid rgb(255, 255, 255);
+    cursor: pointer;
+    width: 300px;
+    margin-bottom: 15px;
+
+}
+a{
+    text-decoration: none;
+    color:rgb(23, 60, 62);
+}/*******************************************************************************************************************************************
+*********************************************     FOOTER        ****************************************************************************
+********************************************************************************************************************************************/
+footer{
+    height:200px;
+    background-color: rgb(23, 60, 62);
+    width: 100%;;
+    text-align: center;
+    color:white ;
+    padding-top: 30px;
+    border-top: 2px solid white;
+    padding-bottom: 25px;
+    margin: 0;
+}/*******************************************************************************************************************************************
+*********************************************     erreurs        ****************************************************************************
+********************************************************************************************************************************************/
+.message{
+
+    text-align: center;
+    margin: auto;
+    
+}
+.error{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 300px;
+    background-color: #e3acac;
+    display: inline-block;
+    border: 1px solid white;
+    margin: 30px 0px 0px 0px;
+    height: 100px;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 10px;
+}
+.succes{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 300px;
+    background-color: #c4e3ac;
+    display: inline-block;
+    border: 1px solid white;
+    margin: 30px 0px 0px 0px;
+    height: 100px;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 10px;
+}
+#test{
+    color: white;
+    font-weight: bold;
+}
+section{
+    background-color: #ecececec;
+    height: 700px;
+    width: 100%;
+    border: 8px solid rgb(23, 60, 62);
+    border-left: none;
+    border-right: none;
+    overflow:scroll;
+}#disconnect{
+    padding: 5px 10px;
+    margin: 30px 30px;
+    width: 150px;
+    display: inline-block;
+
+}
+#off{
+    background-color: rgb(5, 5, 5);
+    text-align: center;
+    height: 100px;
+    margin-bottom: -20px;
+    
+}
+#end{
+    background-color: #ececec;
+    height: 450px;
+    text-align: center;
+}/*******************************************************************************************************************************************
+*********************************************     page contact        ****************************************************************************
+********************************************************************************************************************************************/
+
+/*******************************************************************************************************************************************
+*********************************************     page image        ****************************************************************************
+********************************************************************************************************************************************/
+#flexImage{
+    display: flex;
+    flex-flow:row wrap ;
+    background-color: #575757ec;
+    width: 100%;
+    border: 6px rgb(61, 55, 55) solid;
+    padding:20px;
+    justify-content: center;
+}
+
+.gallery {
+    margin: 15px 30px;
+    border: 1px solid rgb(81, 77, 77);
+    float: left;
+    border: 5px solid rgb(8, 154, 207);
+    height: 300px;
+    display: block;
+    width:400px;
+
+}
+
+.gallery:hover {
+    
+    border: 5px solid rgb(8, 207, 200);
+
+
+
+
+}
+
+.gallery img {
+    width: 400px;
+    height: 300px;
+}
+
+#topbar{
+    background-color: rgba(9, 7, 23, 0.565);
+    color: white;
+    text-align:center;
+    height: 50px;
+    width: 100%;
+    border: 2px solid black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-bottom:20px ;
+
+}/*****************************************************************************************************************************************************************
+8*************************************************  slide  *******************************************************************************************************
+********************************************************************************************************************************************************/
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  top:200px;
+  background-color:rgba(0, 0, 0, 0.363);
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
